@@ -74,6 +74,62 @@ This project is licensed under the MIT License.
 
 ---
 
+## Real-Time Speech-to-Text System for Healthcare with Noise Robustness
+
+This Python project implements a real-time speech-to-text transcription system designed specifically for healthcare environments. It uses OpenAI’s Whisper model for transcription and includes noise robustness, medical term normalization, and critical keyword detection.
+
+### Features
+- Real-time microphone recording
+- Speech-to-text transcription using Whisper (base model)
+- Noise robustness with live audio stream handling
+- Normalization of medical terms (e.g., "bp" → "blood pressure")
+- Keyword detection for important healthcare alerts
+- Automatic logging of transcriptions with timestamps
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/healthcare-stt-whisper.git
+cd healthcare-stt-whisper
+pip install -r requirements.txt
+```
+
+### (Optional) Create a Virtual Environment
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+### Usage
+
+```bash
+python main_healthcare.py
+```
+
+### Output
+
+The system will:
+
+- Listen to audio in 5-second intervals
+- Transcribe the speech
+- Normalize common medical shorthand
+- Detect and print alerts for keywords (e.g., "emergency", "blood pressure")
+- Save all transcriptions in transcription_log.txt
+
+### Console Output
+
+```bash
+[INFO] Recording started. Speak now...
+Transcription:
+The patient's blood pressure is 130 over 85 and shows signs of diabetic condition.
+------------------------------------------------------------
+[ALERT] Detected medical terms: blood pressure, diabetic
+```
+
+### Example Medical Term Normalization
+
+
 
 
 
