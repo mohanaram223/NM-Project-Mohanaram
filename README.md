@@ -36,5 +36,6 @@ pip install -r requirements.txt
 python app/accent_aware_virtual_assistant.py
 ```
 **API Usage**
+
 **Endpoint:** POST /transcribe
 **Payload:** Send a .wav file using form-data
