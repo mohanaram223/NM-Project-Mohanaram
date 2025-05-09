@@ -47,11 +47,27 @@ python app/accent_aware_virtual_assistant.py
 curl -X POST -F "audio=@sample.wav" http://localhost:5000/transcribe
 ```
 
-# Response
+### Response
 ```
 {
   "transcription": "Turn on the lights in the kitchen.",
   "speaker_embedding": [0.0412, -0.0133, ...]
 }
  ```
+### File Structure
 
+```
+accent-aware-virtual-assistant/
+├── app/
+│   └── accent_aware_virtual_assistant.py
+├── uploads/
+├── pretrained_models/
+│   └── spkrec/
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
+
+### License
+
+This project is licensed under the MIT License.
