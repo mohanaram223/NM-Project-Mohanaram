@@ -27,7 +27,8 @@ This project implements a real-time accent-aware speech recognition system using
 ```bash
 git clone https://github.com/your-username/accent-aware-virtual-assistant.git
 cd accent-aware-virtual-assistant
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 
 **Run the Server**
