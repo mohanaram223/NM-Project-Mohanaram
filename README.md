@@ -164,3 +164,28 @@ This project is open-source and licensed under the MIT License.
 Developed for use in healthcare transcription, telemedicine support, and voice-powered diagnostics.
 
 ---
+
+## Accent-Aware Speech Recognition System (Advanced Version)
+
+This project implements an Accent-Aware Speech Recognition System using deep learning and speaker adaptation techniques. It aims to improve transcription accuracy for speakers with diverse accents by integrating accent detection and specialized adaptation models.
+
+## Features
+
+- **Deep Learning-Based ASR:** Uses state-of-the-art speech recognition models
+- **Accent Detection Module:** Identifies speaker accent to guide the ASR system
+- **Speaker Adaptation:** Fine-tunes models or applies adaptation layers for improved accuracy on accent-specific data
+- **End-to-End Pipeline:** From raw audio input to transcribed text
+- **Customizable & Extensible:** Easily integrate new accents or adaptation strategies
+
+```bash
+Would you like this saved or converted into a downloadable file (e.g., `README.md`)?
+```
+
+
+
+
+
+
+
+
+
