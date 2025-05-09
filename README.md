@@ -30,5 +30,8 @@ cd accent-aware-virtual-assistant
 pip install -r requirements.txt```
 
 
-
+**Run the Server**
+```bash
+python app/accent_aware_virtual_assistant.py
+```
 
