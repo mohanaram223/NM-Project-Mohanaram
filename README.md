@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```bash
 python app/accent_aware_virtual_assistant.py
 ```
-**API Usage**
+### API Usage
 
 **Endpoint:** POST /transcribe
 
@@ -129,8 +129,38 @@ The patient's blood pressure is 130 over 85 and shows signs of diabetic conditio
 
 ### Example Medical Term Normalization
 
+| Detected Term   | Normalized Term |
+| --------------- | --------------- |
+| bp              | blood pressure  |
+| sugar level     | glucose level   |
+| ekg             | ECG             |
+| covid           | COVID-19        |
+| diabetes type 1 | Type 1 Diabetes |
 
+### File Structure
 
+```bash
+healthcare-stt-whisper/
+├── main_healthcare.py
+├── requirements.txt
+├── README.md
+├── transcription_log.txt
+└── .gitignore
+```
 
+### Requirements
 
+- Python 3.7+
+- whisper
+- numpy
+- sounddevice
+- soundfile
+- torch
 
+### License
+
+This project is open-source and licensed under the MIT License.
+
+Developed for use in healthcare transcription, telemedicine support, and voice-powered diagnostics.
+
+---
