@@ -47,6 +47,7 @@ python app/accent_aware_virtual_assistant.py
 curl -X POST -F "audio=@sample.wav" http://localhost:5000/transcribe
 ```
 
+# Response
 ```
 {
   "transcription": "Turn on the lights in the kitchen.",
