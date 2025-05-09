@@ -38,4 +38,12 @@ python app/accent_aware_virtual_assistant.py
 **API Usage**
 
 **Endpoint:** POST /transcribe
+
 **Payload:** Send a .wav file using form-data
+
+### Example using curl
+
+```bash
+curl -X POST -F "audio=@sample.wav" http://localhost:5000/transcribe
+```
+
